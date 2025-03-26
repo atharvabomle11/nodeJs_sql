@@ -1,6 +1,6 @@
 const { faker } = require('@faker-js/faker'); // faker is an package that is used to generate fake data 
 const mysql = require('mysql2');   //  This is the package name for connecting our nodejs to mysql workbench
-const express = require("express");
+const express = require('express');
 const app = express();
 const path = require("path");
 const methodOverride = require("method-override");
